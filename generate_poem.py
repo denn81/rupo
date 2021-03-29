@@ -15,7 +15,7 @@ if __name__ == "__main__":
     parser.add_argument('--sampling-k', type=int, default=50000)
     parser.add_argument('--beam-width', type=int, default=None)
     parser.add_argument('--temperature', type=float, default=2.0)
-    parser.add_argument('--last-text', type=str, default="хор")
+    parser.add_argument('--last-text', type=str, default="")
     parser.add_argument('--count', type=int, default=20)
     args = parser.parse_args()
 
