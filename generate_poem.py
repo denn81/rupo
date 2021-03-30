@@ -13,7 +13,7 @@ if __name__ == "__main__":
     parser.add_argument('--rhyme-pattern', type=str, default='abab')
     parser.add_argument('--n-syllables', type=int, default=16)
     parser.add_argument('--sampling-k', type=int, default=50000)
-    parser.add_argument('--beam-width', type=int, default=None)
+    parser.add_argument('--beam-width', type=int, default=10)
     parser.add_argument('--temperature', type=float, default=1.0)
     parser.add_argument('--last-text', type=str, default="террорист")
     parser.add_argument('--count', type=int, default=20)
