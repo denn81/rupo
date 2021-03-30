@@ -12,10 +12,10 @@ if __name__ == "__main__":
     parser.add_argument('--metre-schema', type=str, default='+-')
     parser.add_argument('--rhyme-pattern', type=str, default='abab')
     parser.add_argument('--n-syllables', type=int, default=16)
-    parser.add_argument('--sampling-k', type=int, default=50000)
-    parser.add_argument('--beam-width', type=int, default=4)
+    parser.add_argument('--sampling-k', type=int, default=None)
+    parser.add_argument('--beam-width', type=int, default=8)
     parser.add_argument('--temperature', type=float, default=2.0)
-    parser.add_argument('--last-text', type=str, default="кроет")
+    parser.add_argument('--last-text', type=str, default="")
     parser.add_argument('--count', type=int, default=20)
     args = parser.parse_args()
 
